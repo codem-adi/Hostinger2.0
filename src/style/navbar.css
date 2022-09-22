@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.menue {
+    position: fixed;
+    top: 1rem;
+    left: 2rem;
+}
+
+.circle {
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-color: #6233df;
+    padding: 5px;
+    color: rgb(0, 240, 60);
+    transition: all .3s linear;
+    border: 1rem solid white;
+    box-shadow: -2px -2px 5px gray;
+}
+
+.circle>img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+
+.maximizeMenue {
+    width: 6rem;
+    margin-left: 1.8rem;
+    margin-top: -2rem;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    background-color: white;
+    transition: all .2s linear;
+    transform-origin: top center;
+    padding: 2rem 0px;
+    box-shadow: 2px 0px 10px gray;
+    z-index: -1;
+    position: absolute;
+}
+
+.vertical_active {
+    transform: scaleY(0);
+    visibility: hidden;
+    opacity: .5;
+
+}
+
+.dropend>button::after {
+    visibility: hidden;
+}
+
+.dropend>button {
+    width: 5rem;
+    /* height: 4rem; */
+    padding: 0px;
+    border: none;
+    margin: 5px 0px;
+}
+
+.dropend button>img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.login>a>img {
+    width: 4rem;
+    height: 3rem;
+}
+
+.cart {
+    height: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+    background-color: #6233df;
+    padding: 0rem .5rem;
+    display: flex;
+}
+
+.cart a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.cart>a>img {
+    width: 1.5rem;
+}
+
+.cart a span {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: .7rem;
+}
+
+.dropdown-menu {
+    width: fit-content;
+    overflow: hidden;
+}
+
+.dropdown-menu li a {
+    font-size: 1.5rem;
+    border-left: 1px solid black;
+    margin: 1rem;
+}
+
+.dropdown-menu li a:hover {
+    border-color: #6233df;
+    color: #6233df;
+    background-color: transparent;
+}
+
+.flag {
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 420px) {
+    .flag {
+        border-radius: 30px;
+    }
+}

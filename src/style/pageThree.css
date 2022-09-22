@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Card_Div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.left_part,
+.right_part {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 2rem;
+    width: 57rem;
+    height: 57rem;
+    background-image: url(../assits/pageLeft.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Card_Div a {
+    text-decoration: none;
+    border: none;
+    padding: .5rem 4.5rem;
+    border-radius: 5rem;
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    outline: 2px solid white;
+    outline-offset: -.4rem;
+    transition: all .3s linear;
+}
+
+a:hover {
+    color: white;
+    outline-offset: .4rem;
+}
+
+.right_part>a {
+    background-color: #5057cc;
+
+}
+
+.left_part>a {
+    background-color: #dc3676;
+}
+
+.right_part {
+    background-image: url(../assits/pageRight.png);
+}
+
+/* 35rem */
+
+
+@media screen and (max-width: 420px) {
+
+    .left_part,
+    .right_part {
+        width: 35rem;
+        height: 35rem;
+        padding: 0px;
+    }
+}
