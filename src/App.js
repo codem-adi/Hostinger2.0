@@ -19,7 +19,7 @@ function App() {
           <Route exact  path="/Russian"  element={<Russian />} />
 
           <Route  exact path="/Spanish"  element={<Spanish />} />
-          <Redirect to="/"
+          <Redirect to="/"/>
       </Routes>
     </div>
   );
