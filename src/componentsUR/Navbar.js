@@ -33,27 +33,42 @@ function Navbar() {
             </button>
             <ul className="languages dropdown-menu">
               <li>
-                <a className="dropdown-item" href="/">
+                <a
+                  className="dropdown-item"
+                  href="https://adityahostinger-english.netlify.app/"
+                >
                   English
                 </a>
               </li>
               <li>
-                <a className="dropdown-item" href="/Hindi">
+                <a
+                  className="dropdown-item"
+                  href="https://adityahostinger-hindi.netlify.app/"
+                >
                   Hindi
                 </a>
               </li>
               <li>
-                <a className="dropdown-item" href="/Urdu">
+                <a
+                  className="dropdown-item"
+                  href="https://adityahostinger-urdu.netlify.app/"
+                >
                   Urdu
                 </a>
               </li>
               <li>
-                <a className="dropdown-item" href="/Russian">
+                <a
+                  className="dropdown-item"
+                  href="https://adityahostinger-russian.netlify.app/"
+                >
                   Russian
                 </a>
               </li>
               <li>
-                <a className="dropdown-item" href="/Spanish">
+                <a
+                  className="dropdown-item"
+                  href="https://adityahostinger-spanish.netlify.app/"
+                >
                   Spanish
                 </a>
               </li>

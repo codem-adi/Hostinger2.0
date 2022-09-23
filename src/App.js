@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route exact path="/" element={<English />} />
+        <Route exact path="/" element={<Spanish />} />
 
         <Route exact path="/Hindi" element={<Hindi />} />
 
