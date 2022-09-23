@@ -4,7 +4,7 @@ import Hindi from "./sites/Hindi.js";
 import Urdu from "./sites/Urdu.js";
 import Russian from "./sites/Russian.js";
 import Spanish from "./sites/Spanish.js";
-import { Routes, Route,Redirect } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -19,7 +19,6 @@ function App() {
           <Route exact  path="/Russian"  element={<Russian />} />
 
           <Route  exact path="/Spanish"  element={<Spanish />} />
-          <Redirect to="/"/>
       </Routes>
     </div>
   );
