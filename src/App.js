@@ -12,14 +12,13 @@ function App() {
       <Routes>
         <Route exact path="/" element={<English />} />
 
-        <Route exact  path="/Hindi"  element={<Hindi />} />
+        <Route exact path="/Hindi" element={<Hindi />} />
 
-          <Route  exact path="/Urdu"  element={<Urdu />} />
+        <Route exact path="/Urdu" element={<Urdu />} />
 
-          <Route exact  path="/Russian"  element={<Russian />} />
+        <Route exact path="/Russian" element={<Russian />} />
 
-          <Route  exact path="/Spanish"  element={<Spanish />} />
-          <Redirect t0="/"
+        <Route exact path="/Spanish" element={<Spanish />} />
       </Routes>
     </div>
   );
