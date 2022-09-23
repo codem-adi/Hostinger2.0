@@ -4,7 +4,7 @@ import Hindi from "./sites/Hindi.js";
 import Urdu from "./sites/Urdu.js";
 import Russian from "./sites/Russian.js";
 import Spanish from "./sites/Spanish.js";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route,Redirect } from "react-router-dom";
 
 function App() {
   return (
