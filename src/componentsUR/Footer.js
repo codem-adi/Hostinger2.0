@@ -9,7 +9,6 @@ import master from "../assits/payments/mastercard.webp";
 import discover from "../assits/payments/discover.webp";
 import club from "../assits/payments/dinersclub.webp";
 import rupay from "../assits/payments/rupay.webp";
-import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -23,29 +22,29 @@ const Footer = () => {
           <div className="social_handles">
             <ul>
               <li>
-                <Link to="https://www.linkedin.com/company/hostinger-international/">
+                <a href="https://www.linkedin.com/company/hostinger-international/">
                   <img src={lin} alt="Social Handles" />
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="https://www.facebook.com/Hostinger">
+                <a href="https://www.facebook.com/Hostinger">
                   <img src={fb} alt="Social Handles" />
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="https://www.instagram.com/hostinger_global/">
+                <a href="https://www.instagram.com/hostinger_global/">
                   <img src={insta} alt="Social Handles" />
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="https://twitter.com/Hostinger">
+                <a href="https://twitter.com/Hostinger">
                   <img src={tw} alt="Social Handles" />
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="https://www.youtube.com/HostingerAcademy">
+                <a href="https://www.youtube.com/HostingerAcademy">
                   <img src={yt} alt="Social Handles" />
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
@@ -62,108 +61,108 @@ const Footer = () => {
             </button>
             <ul className="dropdown-menu">
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://www.hostinger.in/web-hosting"
+                  href="https://www.hostinger.in/web-hosting"
                 >
                   ویب ہوسٹنگ
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://www.hostinger.in/vps-hosting"
+                  href="https://www.hostinger.in/vps-hosting"
                 >
                   VPS ہوسٹنگ
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://www.hostinger.in/minecraft-server-hosting"
+                  href="https://www.hostinger.in/minecraft-server-hosting"
                 >
                   مائن کرافٹ سرور ہوسٹنگ
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://www.hostinger.in/cyberpanel-vps-hosting"
+                  href="https://www.hostinger.in/cyberpanel-vps-hosting"
                 >
                   سائبر پینل ہوسٹنگ
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://www.hostinger.in/cloud-hosting"
+                  href="https://www.hostinger.in/cloud-hosting"
                 >
                   کلاؤڈ ہوسٹنگ
-                </Link>
+                </a>
               </li>
               {/* <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://www.hostinger.in/wordpress-hosting"
+                  href="https://www.hostinger.in/wordpress-hosting"
                 >
                   WordPress Hosting
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://www.hostinger.in/email-hosting"
+                  href="https://www.hostinger.in/email-hosting"
                 >
                   Email Hosting
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://www.hostinger.in/cms-hosting"
+                  href="https://www.hostinger.in/cms-hosting"
                 >
                   CMS Hosting
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://www.hostinger.in/ecommerce-hosting"
+                  href="https://www.hostinger.in/ecommerce-hosting"
                 >
                   Ecommerce Hosting
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://www.hostinger.in/free-web-hosting"
+                  href="https://www.hostinger.in/free-web-hosting"
                 >
                   Free Web Hosting
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://www.hostinger.in/online-store"
+                  href="https://www.hostinger.in/online-store"
                 >
                   Online Store
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://www.hostinger.in/website-builder"
+                  href="https://www.hostinger.in/website-builder"
                 >
                   Website Builder
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://www.hostinger.in/buy-hosting"
+                  href="https://www.hostinger.in/buy-hosting"
                 >
                   Buy Hosting
-                </Link>
+                </a>
               </li> */}
             </ul>
           </div>
@@ -178,44 +177,44 @@ const Footer = () => {
             </button>
             <ul className="dropdown-menu">
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://www.hostinger.in/tld/xyz-domain"
+                  href="https://www.hostinger.in/tld/xyz-domain"
                 >
                   XYZ ڈومینز
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://www.hostinger.in/cheap-domain"
+                  href="https://www.hostinger.in/cheap-domain"
                 >
                   سستے ڈومینز
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://www.hostinger.in/tld"
+                  href="https://www.hostinger.in/tld"
                 >
                   ڈومین ایکسٹینشنز
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://www.hostinger.in/whois"
+                  href="https://www.hostinger.in/whois"
                 >
                   WHOIS تلاش کریں۔
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://www.hostinger.in/free-ssl-certificate"
+                  href="https://www.hostinger.in/free-ssl-certificate"
                 >
                   مفت SSL سرٹیفکیٹ
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
@@ -230,28 +229,28 @@ const Footer = () => {
             </button>
             <ul className="dropdown-menu">
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://www.hostinger.in/tutorials/"
+                  href="https://www.hostinger.in/tutorials/"
                 >
                   سبق
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://support.hostinger.com/en/?_ga=2.217975441.622478265.1663667828-901203084.1663192946&_gac=1.89385577.1663704789.CjwKCAjwyaWZBhBGEiwACslQo7Q1AxtESK2XhOF9y9eB5oN6NnOOhN2zLPM-k7jidFbODw6LnQBz7BoCRL0QAvD_BwE"
+                  href="https://support.hostinger.com/en/?_ga=2.217975441.622478265.1663667828-901203084.1663192946&_gac=1.89385577.1663704789.CjwKCAjwyaWZBhBGEiwACslQo7Q1AxtESK2XhOF9y9eB5oN6NnOOhN2zLPM-k7jidFbODw6LnQBz7BoCRL0QAvD_BwE"
                 >
                   علم کی بنیاد
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://www.hostinger.in/report-abuse"
+                  href="https://www.hostinger.in/report-abuse"
                 >
                   آن لائن غلط استعمال کی اطلاع دیں۔
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
@@ -266,44 +265,44 @@ const Footer = () => {
             </button>
             <ul className="dropdown-menu">
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://www.hostinger.in/payment-methods"
+                  href="https://www.hostinger.in/payment-methods"
                 >
                   ادائیگی کے طریقے
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://www.hostinger.in/rewards"
+                  href="https://www.hostinger.in/rewards"
                 >
                   انعامات
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://www.hostinger.in/reviews"
+                  href="https://www.hostinger.in/reviews"
                 >
                   جائزے
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://www.hostinger.in/pricing"
+                  href="https://www.hostinger.in/pricing"
                 >
                   قیمتوں کا تعین
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://www.hostinger.in/sitemap"
+                  href="https://www.hostinger.in/sitemap"
                 >
                   سائٹ کا نقشہ
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
@@ -318,44 +317,44 @@ const Footer = () => {
             </button>
             <ul className="dropdown-menu">
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://www.hostinger.in/about"
+                  href="https://www.hostinger.in/about"
                 >
                   ہوسٹنگر کے بارے میں
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://www.hostinger.in/technology"
+                  href="https://www.hostinger.in/technology"
                 >
                   ہماری ٹیکنالوجی
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://roadmap.hostinger.com/tabs/10-released"
+                  href="https://roadmap.hostinger.com/tabs/10-released"
                 >
                   روڈ میپ
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://www.hostinger.in/customer-care"
+                  href="https://www.hostinger.in/customer-care"
                 >
                   صارفین کی سہولت
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://www.hostinger.com/blog/?_ga=2.239028999.622478265.1663667828-901203084.1663192946&_gac=1.115491444.1663742390.CjwKCAjwyaWZBhBGEiwACslQow2-wlU8sEleCGKty9mgKuI8pQayadJ-3kbQZjyiCgideeZqgWBY8BoCUo8QAvD_BwE"
+                  href="https://www.hostinger.com/blog/?_ga=2.239028999.622478265.1663667828-901203084.1663192946&_gac=1.115491444.1663742390.CjwKCAjwyaWZBhBGEiwACslQow2-wlU8sEleCGKty9mgKuI8pQayadJ-3kbQZjyiCgideeZqgWBY8BoCUo8QAvD_BwE"
                 >
                   بلاگ
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
@@ -370,20 +369,20 @@ const Footer = () => {
             </button>
             <ul className="dropdown-menu">
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://www.hostinger.in/privacy-policy"
+                  href="https://www.hostinger.in/privacy-policy"
                 >
                   رازداری کی پالیسی
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="dropdown-item"
-                  to="https://www.hostinger.in/universal-terms-of-service-agreement"
+                  href="https://www.hostinger.in/universal-terms-of-service-agreement"
                 >
                   سروس کی شرائط
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
@@ -413,9 +412,9 @@ const Footer = () => {
                 <img src={rupay} alt="payment Options" />
               </li>
               <li>
-                <Link to="https://www.hostinger.in/payment-methods">
+                <a href="https://www.hostinger.in/payment-methods">
                   <p>Many More</p>
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
